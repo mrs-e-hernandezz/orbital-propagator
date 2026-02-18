@@ -1,5 +1,5 @@
 # Two-Body Orbital Propagator
-# This project impliments a numerical orbital propagator from scratch in Python, simulating satellite motion around Earth using the basic two body gravity model.
+# This project implements a numerical orbital propagator from scratch in Python, simulating satellite motion around Earth using the basic two body gravity model.
 # 
 # Physics
 # I start from Newtonian gravity:
@@ -14,7 +14,7 @@
 # - Plots circular and elliptical orbits in 3D
 # - Validates accuracy by confirming zero radius drift over a full orbit
 # 
-# Validataion
+# Validation
 # For a circular orbit at 400km altitude, the propagator returns an orbital period of 92.39 minutes, consistent with the ISS (~92.5 minutes). Over one full orbit, the radius variation is essentially zero within numerical precision.
 
 # %%
@@ -103,7 +103,7 @@ ax.plot_surface(ex, ey, ez, color = "deepskyblue", alpha = 0.4)
 ax.set_xlabel('X (Mm)')
 ax.set_ylabel('Y (Mm)')
 ax.set_zlabel('Z (Mm)')
-ax.set_title('Two-Body Orbital Propagator/n400km Circular Orbit')
+ax.set_title('Two-Body Orbital Propagator\n400km Circular Orbit')
 
 plt.tight_layout()
 plt.show()
