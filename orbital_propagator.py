@@ -29,7 +29,7 @@ R_earth = 6.37e6    #Earth's radius in meters
 
 def equations_of_motion(t, state):
     """
-    state = [x, y, z, vw, vy, vz]
+    state = [x, y, z, vx, vy, vz]
     returns derivatives = [vx, vy, vz, ax, ay, az]
     """
 
